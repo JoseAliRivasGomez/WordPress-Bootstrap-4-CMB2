@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Escuela Cocina</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header py-5">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 col-8 mb-4 mb-md-0">
+                <a href="index.html">
+                    <img src="img/logo.svg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-12 col-md-8">
+                <nav class="nav flex-column flex-md-row text-center d-flex justify-content-md-end justify-content-center">
+                    <a href="nosotros.html" class="nav-link">Nosotros</a>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                    <a href="clases.html" class="nav-link">Clases</a>
+                    <a href="galeria.html" class="nav-link">Galería</a>
+                    <a href="contacto.html" class="nav-link active">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+        <div class="row imagen-destacada contacto-bg"></div>
+</div>
+
+<main class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 bg-white contenido-nosotros py-3 px-5">
+            <h2 class="separador text-center my-5">Contacto</h2>
+            <form action="#">
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Tu Nombre">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group ">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" class="form-control" name="telefono" id="telefono" aria-describedby="helpId" placeholder="Teléfono">
+                            </div>
+                        </div><!--.col-md-6-->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="mail">E-mail</label>
+                                <input type="tel" class="form-control" name="mail" id="mail" aria-describedby="helpId" placeholder="E-mail">
+                            </div>
+                        </div><!--.col-md-6-->
+                    </div><!--.row-->
+                    <div class="form-group">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+
+   
+    <footer class="footer p-5">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                        <nav class="nav d-flex flex-column text-center flex-md-row   justify-content-md-start justify-content-center">
+                            <a href="nosotros.html" class="nav-link">Nosotros</a>
+                            <a href="blog.html" class="nav-link">Blog</a>
+                            <a href="clases.html" class="nav-link">Clases</a>
+                            <a href="galeria.html" class="nav-link">Galería</a>
+                            <a href="contacto.html" class="nav-link">Contacto</a>
+                        </nav>
+                </div>
+                <div class="col-md-6">
+                    <p class="copyright text-center text-md-right">Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+</html>
